@@ -1,0 +1,11 @@
+#ignore *.txt files
+*.txt
+
+#ignore files ending with ~
+*~
+
+#ignore txt files
+*.txt
+
+#ignore MITx
+MITx/
