@@ -17,6 +17,13 @@ print persian_cat
 print backslash_cat
 print fat_cat
 
+#How do I make print "printer is down?! %s %r" work? 
+#Say I wanna debug the program and I want to insert %r in some print statements. Can I do that where there's already a %s there?
+
+
+#%r is for debugging. It will make everything print "as shown"
+
+
 #\\     Backslash
 #\'     Single quote
 #\"     Double doute
