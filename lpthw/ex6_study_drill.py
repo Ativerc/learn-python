@@ -23,5 +23,5 @@ print joke_evaluation % hilarious
 w = "This is the left side of..."
 e = "a string with a right side."
 
-#concatenation of 2 strings Got it!
+#concatenation of 2 strings... Got it!
 print w + e
