@@ -38,5 +38,5 @@ print fat_cat
 #\Uxxxxxxxx 	Character with 32-bit hex value xxxxxxxx (Unicode only)
 #\v 	ASCII vertical tab (VT)
 #\ooo 	Character with octal value ooo
-#\xhh 	Character with hex value hh
+#\xhh 	Character with hex value hh 
 
