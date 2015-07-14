@@ -19,3 +19,7 @@ x = int(raw_input("Enter int: "))
 print "for i in range(0,x+1)"
 for i in range(0,x+1):
     print i
+
+print "for i in range(x+1,0,-1), Reverse Counter"
+for i in range(x,0,-1):
+    print i
