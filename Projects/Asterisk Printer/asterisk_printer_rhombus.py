@@ -14,3 +14,12 @@ luppattern(x)
 ldopattern(x)
 
 #Done!!
+#its nice how the pattern looks like a rhombus rather than switches on say an
+#elevator call button/setup.
+#Symmetry vs no symmetry huh?
+
+#Think I will hold off from pattern builds for a couple of days..
+#Read up on string manipulation, modules, and other stuff
+#and get back to this next week.
+#Also probably stop commenting like its my blog.
+#Fun stuff planned for this weekend
