@@ -10,7 +10,7 @@ while val:
     #if block starts here
         print 'You guessed it right!'
         print 'Yay!!',
-        print 'you da real MVP!' 
+        print 'you da real MVP!'
         val = False
     elif my_choiss < num:
         #elif block
