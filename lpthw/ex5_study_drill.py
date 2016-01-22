@@ -24,6 +24,14 @@ print "Actually that's not too heavy."
 print "He's got %s eyes and %s hair." % (eyes, hair)
 print "His teeth are usually %s depending on the coffee." % teeth
 
+#print "There are %s and %s words here"%(teeth) This will show an error ....1
+#print "There are %s words."%(teeth,teeth) This too shall show an error ....2
+#The above 2 show an error because no.(format specifiers) = no.(arguments)
+#In 1, no.(format specifiers) > no.(args). Error shown -> "TypeError: Not enough arguments for format string"
+#in 2, no.(format specifiers) < no.(args). Error shown -> "TypeError: not all arguments converted during formatting"
+
+print "Print color of the eyes = {} here and color of hair = {} here. .format ROCKS!!".format(eyes, hair)
+
 #Adding line: Checking Multipleformat() methods for int and string
 # Can be written as %(arg1, arg2) w/o spaces. "Mr.%s"doesn't throw an error...
 print "So %d is not that heavy. Is Mr.%s sure about that?" %(weight, name)
@@ -33,12 +41,16 @@ print "Testing Escape sequences"
 
 
 print "Mr.\%s"
-#The escape sequence is still printed. Although % sign is also printed. Perhaps because no arguments were passed?
+#The escape sequence is still printed. Although % sign is also printed. That is odd. I just wanted the %s to be printed.
+
+#Printing raw strings
+print r"Hi \n see the newline character does not work.."
+# prefixing a string with r or R makes sure that any \n or other escape sequences are not processed
 
 print 
 # Blank print statement ^here^  is construed as a Newline character. Wait!! Every print statement in python has an invisible Newline character.
 
-#Testing Line 35 with arguments added in format()
+#Testing Line 43 with arguments added in format()
 print "Mr.\%s" %(name)
 #Substitution done successfully. But the backslash is still printed. Maybe the % doesn't need it?
 
