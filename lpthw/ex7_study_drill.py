@@ -11,6 +11,8 @@ print "And everywhere that Mary went."
 print "." * 10  # what'd that do?
 #prints the given string 10 times without \n character
 
+print "."
+
 end1 = "C"
 end2 = "h"
 end3 = "e"
@@ -28,8 +30,8 @@ end12 = "r"
 print end1 + end2 + end3 + end4 + end5 + end6,
 print end7 + end8 + end9 + end10 + end11 + end12
 
-#Removing the comma brings the burger down to the next line
-#>>>Dunno WHY??<<<
+#The output of BOTH lines 28 and 29 is "Cheese Burger" in one line
+#Usually a print has a \n but the comma at the end of the first print negates the effect of the \n
 
 
 
